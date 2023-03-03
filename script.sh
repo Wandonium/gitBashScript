@@ -15,5 +15,3 @@ else
   echo "There is stuff to push"
   git push -u origin master
 fi
-
-echo "Today is : $date" >> ~/gitBashScript/cron_test.txt
