@@ -5,6 +5,7 @@ date=$(date +"%Y-%m-%d %T")
 
 # Commit message
 message="Commit for $date"
+cd ~/gitBashScript
 git add .
 git commit -m"${message}"
 status="$(git status --branch --porcelain)"
